@@ -1,0 +1,16 @@
+{
+  "name": "book-of-answer",
+  "version": "1.0.42",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.5.2",
+    "elysia": "0.5.20"
+  },
+  "devDependencies": {
+    "bun-types": "0.6.9"
+  },
+  "module": "src/index.js"
+}
