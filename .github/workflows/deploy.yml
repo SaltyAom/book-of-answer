@@ -38,7 +38,7 @@ jobs:
       with:
         project: saltyaom
         location: gke.cluster-rcf2
-        name: eden-ws
+        name: book-of-answer
         image: ghcr.io/saltyaom/book-of-answer
         minReplicas: 2
         maxReplicas: 20
